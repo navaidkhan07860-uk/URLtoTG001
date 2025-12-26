@@ -13,9 +13,9 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 download_path = "Downloads/"
 
-api_id = int(os.environ.get("API_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token =os.environ.get("BOT_TOKEN")
+api_id = int(os.environ.get("API_ID", "34371650"))
+api_hash = os.environ.get("API_HASH", "d11bfcd1cbbb9c53acb992f1713496b7")
+bot_token =os.environ.get("BOT_TOKEN", "8521377883:AAGr4u3Shz_krhyD-YuKRrtQ0QO-hXyou_g")
 
 class Config:
     # Array to store users who are authorized to use the bot
